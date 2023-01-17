@@ -1,0 +1,95 @@
+.Portifolio {
+    background-color: #026913;
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid: 100px;
+  }
+  .port-conteiner {
+    background-color: #026913;
+  }
+  /* .Portifolioexperiencia {
+    background-color: #026913;
+  } */
+  
+
+  .Portifolio .subtitulo {
+    color: #ffffff;
+       max-width: 9ch;
+   
+   }
+  .port-txt strong {
+    color: #141414;
+  }
+  .port {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+    background: #f5f5f5;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    position: relative;
+  }
+  .port::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 20px;
+    background: linear-gradient(#b6f829, #67dd0a);
+    position: absolute;
+    top: 20px;
+    left: -4px;
+  }
+
+  .port-titulo {
+    font-size: 1.125rem;
+    line-height: 1.1;
+    font-weight: bold;
+  }
+  .port-txt {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    color: #525252;
+  }
+  .port-hab {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: start;
+  }
+  .port-hab li {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    border-radius: 4px;
+    background: white;
+    padding: 5px 10px;
+  }
+  .video{
+    padding-bottom: 59%;
+    position: relative;
+  }
+  .video > iframe{
+    position: relative;
+    width: 400px;
+    height: 200px;
+  }
+  @media (max-width: 1110px) {
+    .Portifolio {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    .port .subtitulo {
+      color: #141414;
+    }
+    .port-txt {
+      font-size: 1.25rem;
+    }
+  }
+  @media (max-width: 400px) {
+    .port {
+      grid-template-columns: 1fr;
+    }
+  }
