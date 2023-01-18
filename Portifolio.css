@@ -90,6 +90,11 @@
         max-width: 200px;
     }
   }
+  @media (max-width: 500px) {
+    .port {
+      grid-template-columns: 1fr;
+    }
+  }
   @media (max-width: 400px) {
     .port {
       grid-template-columns: 1fr;
