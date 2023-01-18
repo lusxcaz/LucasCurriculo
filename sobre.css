@@ -24,16 +24,22 @@
       grid-template-columns: 1fr;
       gap: 40px;
     }
+       iframe{
+    max-width: 200px;
   }
   @media (max-width: 700px) {
     .sobre-txt {
       font-size: 1.3rem;
     }
+       iframe{
+    max-width: 200px;
   }
   
   @media (max-width: 440px) {
     .sobre-txt {
       font-size: 1rem;
     }
+       iframe{
+    max-width: 200px;
   }
   
