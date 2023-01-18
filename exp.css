@@ -90,9 +90,15 @@
     width: initial;
     text-align: left;
   }
+  iframe{
+    max-width: 200px;
+}
 }
 @media (max-width: 400px) {
   .empresa {
     grid-template-columns: 1fr;
   }
+  iframe{
+    max-width: 200px;
+}
 }

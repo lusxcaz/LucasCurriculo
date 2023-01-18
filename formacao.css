@@ -148,6 +148,7 @@
     position: initial;
     margin-bottom: 10px;
   }
-   iframe{
+  iframe{
     max-width: 200px;
+}
 }

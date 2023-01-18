@@ -13,6 +13,7 @@
 .footer-txt {
   font-size: 1.5rem;
   line-height: 1.33;
+
   color: #ccc;
 }
 .footer-cont li {
@@ -55,8 +56,18 @@
   .footer-cont li {
     font-size: 1.0rem;
   }
+  iframe{
+    max-width: 200px;
 }
-
+}
+@media (max-width: 400px) {
+  .empresa {
+    grid-template-columns: 1fr;
+  }
+  iframe{
+    max-width: 200px;
+}
+}
 .footer .subtitulo {
  color: #bdf792;
     max-width: 9ch;
