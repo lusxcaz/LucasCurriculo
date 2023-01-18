@@ -32,6 +32,8 @@
   .intro h1 {
     font-size: 3rem;
   }
+   iframe{
+    max-width: 200px;
 }
 @media (max-width: 800px) {
   .intro {
@@ -46,6 +48,8 @@
     height: 10px;
     left: 0px;
   }
+   iframe{
+    max-width: 200px;
 }
 @media (max-width: 422px) {
   .intro {
@@ -54,4 +58,6 @@
   .intro img {
     display: none;
   }
+   iframe{
+    max-width: 200px;
 }
